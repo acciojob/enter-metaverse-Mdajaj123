@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function removep(){
-	const p=document.getElementById("status");
+	const p=document.getElementByquerySelector("#status");
 	const b=document.getElementById("enterBtn")
 	const body=document.getElementsByTagName("body")[0];
      p.innerText="Entered Metaverse"
